@@ -1,5 +1,5 @@
-import "dotenv/config";
 app.listen(process.env.PORT || 4000);
+import "dotenv/config";
 import express from 'express'
 import Hello from "./hello.js"
 import Lab5 from './lab5.js'
